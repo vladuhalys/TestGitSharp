@@ -7,6 +7,7 @@
             User user = new User();
             user.Name = "John";
             Console.WriteLine(user);
+            Console.WriteLine("End program...");
         }
     }
 }
