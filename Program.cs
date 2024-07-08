@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            
+            User user = new User();
+            user.Name = "John";
+            Console.WriteLine(user);
         }
     }
 }
